@@ -1,0 +1,38 @@
+body {
+  margin:0;
+  padding:0;
+  background-image: url(../img/backgroundpage1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+
+#Page1{
+display: flex;
+flex-direction: column;
+margin:0;
+padding:0;
+
+}
+
+#blockCenter{
+display: flex;
+flex-direction: column;
+  align-self: center;
+  align-items: center;
+}
+
+#blockRight{
+  align-self: flex-end;
+}
+
+#nameGame1{
+  text-align: center;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+      border-color: #41403E;
+      background-color: white;
+      border:solid 7px #41403E;
+}
