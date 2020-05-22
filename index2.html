@@ -1,51 +1,71 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="assets/css/styles.css">
   <title>Projet PFCLS</title>
 </head>
-<body>
 
+<body>
+  <!-- id  = # en css
+  class = . en css -->
+
+<div id="Jeux"class="">
 
 
   <div id="Page2" class="">
+    <!--ouverture div qui englobe page entière-->
 
 
     <div id="hightPage" class="">
+      <!--ouverture div qui englobe le haut de la page-->
 
-      <div class="nameGame2">
-        <h1>shifumi PFCLS</h1>
+      <div id="nameGame2">
+        <h1 id="Title">s h i f u m i  -  P F C L S</h1>
 
         <div id="avatar" class="">
-          <img src="" alt="">
+          <img src="assets/img/adversaire3.png" alt="">
           <p></p>
         </div>
 
 
       </div>
+      <!--fermeture div page entière-->
 
       <div id="moon1" class="">
 
-        <div  id="carre1" class="">
+        <div id="carre1" class="">
 
         </div>
 
       </div>
 
     </div>
+    <!--fermeture div haut de la page-->
 
     <div id="midlePage" class="">
 
-      <div id="compteur1" class="">
+      <div class="score">
+        <div id="compteur1" class="number">
 
-        <h2></h2> <p></p>
+
+          <p>0</p>
+        </div>
+        <h2>joueur</h2>
+
       </div>
 
-      <div id="compteur2" class="">
-        <h2></h2> <p></p>
+      <div class="score">
+        <div id="compteur2" class="number">
+
+          <p>0</p>
+        </div>
+        <h2>ordinateur</h2>
       </div>
+
     </div>
 
     <div id="bottomPage" class="">
@@ -53,36 +73,43 @@
 
       <div id="moon2" class="">
 
-        <div id="carre2" class="">
-
-        </div>
+        <div id="droppable" class=""></div>
 
       </div>
 
       <div id="plateau" class="">
 
-        <div id="user" class="">
-
-          <div id="card1"  class="">
-
-          </div>
-          <div id="card2" class="">
-
-          </div>
-          <div id="card3" class="">
-
-          </div>
-          <div id="card4" class="">
-
+        <div id="jeu">
+          <div id="rockChoice" class="choice answer">
+            <img class="img" src="assets/img/pierre.jpg" alt="">
           </div>
 
-          <div id="card5" class="">
-
+          <div id="paperChoice" class="choice answer">
+            <img class="img" src="assets/img/feuille.jpg" alt="">
           </div>
 
+          <div id="scissorsChoice" class="choice answer">
+            <img class="img" src="assets/img/ciseaux.jpg" alt="">
+          </div>
+
+          <div id="lezardChoice" class="choice answer">
+            <img class="img" src="assets/img/lezard.jpg" alt="">
+          </div>
+
+          <div id="spockChoice" class="choice answer">
+            <img class="img" src="assets/img/spock.jpg" alt="">
+          </div>
         </div>
 
+        <div id="namecard">
+          <p>pierre</p>
+          <p>feuille</p>
+          <p>ciseaux</p>
+          <p>lézard</p>
+          <p>spock</p>
+        </div>
       </div>
+
 
 
     </div>
@@ -91,7 +118,12 @@
   </div>
 
 
-  <script src="assets/js/jquery-3.2.1.js"></script>
-  <script src="assets/js/script.js"></script>
+</div>
+
+
+<script src="assets/js/script-JQuery-3-5-1.js"></script>
+<script src="assets/js/jquery-ui.min.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
+
 </html>

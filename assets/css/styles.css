@@ -1,25 +1,32 @@
-body {
+#Presentation {
   margin:0;
   padding:0;
   background-image: url(../img/backgroundpage1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
 
-
+#Jeux {
+  margin:0;
+  padding:0;
+  background-image: url(../img/backgroundpage1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #Page1{
-display: flex;
-flex-direction: column;
-margin:0;
-padding:0;
+  display: flex;
+  flex-direction: column;
+  margin:0;
+  padding:0;
 
 }
 
 #blockCenter{
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   align-self: center;
   align-items: center;
 }
@@ -31,8 +38,172 @@ flex-direction: column;
 #nameGame1{
   text-align: center;
   box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
-      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-      border-color: #41403E;
-      background-color: white;
-      border:solid 7px #41403E;
+  border-radius: 260px 15px 225px 15px/15px 225px 15px 255px;
+  border-color: #41403E;
+  background-color: white;
+  border:solid 7px #41403E;
 }
+
+
+  #shifumi{
+    font-size: 100px;
+    font-family: 'Bangers', cursive;
+    color: orange;
+  }
+
+#titre{
+  font-size: 50px;
+  font-family: 'Bangers', cursive;
+  color: blue;
+}
+
+#lancerJeux{
+  font-size: 60px;
+  font-family: 'Bangers', cursive;
+  color: purple;
+}
+  #Page1{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+
+  }
+
+  #blockCenter{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+  }
+
+  #blockRight{
+    align-self: flex-end;
+  }
+
+  #nameGame{
+    text-align: center;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-color: #41403E;
+    background-color: white;
+    border:solid 7px #41403E;
+  }
+
+#main{
+height:
+width
+}
+
+#femme{
+  height:500px;
+  width
+}
+  #Page2{
+    height: 1000px; /*hauteur*/
+    display:flex; /*tous les enfants de page2 seront des élémts flexibles*/
+    flex-direction: column; /*se met en colonne*/
+    align-items:center; /* aligne au centre*/
+    justify-content: space-between; /*met de l'espace entre eux*/
+  }
+
+
+  #nameGame2{
+    height: 200px; /*hauteur*/
+    width: 565px; /*largeur*/
+    border: solid;  /* solid= bordures pleine / radius= arrondir angle*/
+    background-color: red;
+    text-align: center;
+  }
+
+  #Title{
+    font-family: 'Bangers', cursive;
+    color : black;
+  }
+  #moon1{
+    height: 250px ;
+    width: 565px;
+    border: solid;
+    border-radius: 50% / 0 0 100% 100%; /* forme la demi-lune*/
+    background-image: url(../img/tapis.png);
+    background-size: cover;
+    display: flex; /*ici, le parent défini la réaction de l'enfant =le carré1 sera flexible*/
+    align-items: center; /*aligner l'élément enfant au centre*/
+    justify-content: center; /*centre l'enfant*/
+  }
+
+  #carre1{
+    height: 110px;
+    width: 110px;
+    border: solid;
+    border-color: white;
+  }
+
+
+  #midlePage {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center; /*centre le texte par rapport au centre de son parent, ici, le carré*/
+  }
+
+
+  .number {
+    height: 100px; /*hauteur*/
+    width: 100px; /*largeur*/
+    border: solid;
+  }
+
+
+  .score{
+    width: 100px;
+    display: flex; /*détermine la flexibilité de l'enfant*/
+    align-items: center; /*aligne les items (compteurs 1 et 2 + les h)*/
+    flex-direction: column; /*met en colonne l'enfant avec le parent=score*/
+
+  }
+
+
+  #moon2{
+    height: 250px ;
+    width: 565px;
+    border: solid;
+    border-radius: 50% / 100% 100% 0 0; /*forme la demi-lune*/
+    background-image: url(../img/tapis.png);
+    background-size: cover;
+    display: flex; /*le parent défini la réaction de l'enfant =le carré1 sera flexible*/
+    align-items: center; /*aligner l'élément enfant au centre*/
+    justify-content: center; /*centre l'enfant*/
+  }
+
+  #droppable{
+    height: 110px;
+    width: 110px;
+    border: solid;
+    border-color: white;
+  }
+
+
+  #plateau{
+    height : 200px;/*largeur*/
+    border: solid;  /* solid= bordures pleine / radius= arrondir angle*/
+    background-color: red;
+    display: flex; /*parents des 5 cartes à bouger*/
+    flex-direction: column; /* met tous les enfants en colonne, l'un en dessous de l'autre*/
+  }
+
+
+  #jeu{
+    display: flex; /* met automatiquement les élémts flexibles en direction row*/
+
+  }
+
+
+
+
+
+
+  #namecard{
+    display: flex;
+    justify-content: space-around;
+  }
